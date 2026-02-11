@@ -18,7 +18,7 @@ Demonstrate — in a clean, reproducible way — that many state-of-the-art unle
 | No unlearning       | ~98%                          | —                                          | ~99.97%            | ~69.5%           | Original trained model             |
 | Gradient Ascent     | ~2–10%                        | ~94–100%                                   | ~96–99%            | ~65–69%          | Very strong recovery               |
 | BadTeacher          | ~0–5%                         | ~90–100%                                   | ~97–99%            | ~66–69%          | Similar vulnerability              |
-| SCRUB               | ~10–20%                       | ~80–96%                                    | ~89–92%            | ~71–72%          | Moderate recovery                  |
+| SCRUB               | ~10–20%                       | ~10–20%                                    | ~89–92%            | ~71–72%          | Contradicst the paper results                  |
 | NegGrad+ (λ=100)    | ~0%                           | ~88–96%                                    | ~98–99%            | ~68–69%          | Retain stays very strong           |
 | Random Relabelling  | ~66%                          | ~98–100%                                   | ~95%               | ~58–69%          | Still highly recoverable           |
 
