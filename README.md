@@ -9,8 +9,8 @@ This repo focuses on **practical post-hoc and approximate unlearning methods** e
 
 ## ✅ Implemented Methods – Folder ↔ Paper Mapping
 
-| Folder                  | Paper Title / Method                                                                 | Venue   | Year | arXiv / Link                                                                 | Core Idea (1-liner)                                      |
-|-------------------------|--------------------------------------------------------------------------------------|---------|------|------------------------------------------------------------------------------|----------------------------------------------------------|
+| Folder      | Paper Title / Method                                                                 | Venue   | Year | arXiv / Link                                                                 | Core Idea (1-liner)                                      |
+|-------------|--------------------------------------------------------------------------------------|---------|------|---------------------------------------------|----------------------------------------------------------|
 | `BadTeacher`           | Can Bad Teaching Induce Forgetting? Unlearning in Deep Networks using an Incompetent Teacher | AAAI    | 2023 | [arXiv:2205.08096](https://arxiv.org/abs/2205.08096)                        | Use  incompetent (scrambled) teacher to induce forgetting and competent teacher to preserve performance on retain via distillation |
 | `SSD`                   | Fast Machine Unlearning Without Retraining Through Selective Synaptic Dampening     | AAAI    | 2024 | [arXiv:2308.07707](https://arxiv.org/abs/2308.07707)                        | Dampen most forget-relevant parameters using Fisher information |
 | `SimilarLabel`        | Robust Machine Unlearning for Quantized Networks via Adaptive Gradient Reweighting with Similar Labels | ICCV    | 2025 |  [arXiv:2503.13917](https://arxiv.org/pdf/2503.13917)            | Replace forget labels with probabilistically-closest wrong class → milder gradients |
