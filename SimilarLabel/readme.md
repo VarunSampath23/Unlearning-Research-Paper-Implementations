@@ -1,7 +1,5 @@
 # Similar Labelling – CIFAR-100 & ResNet-18
 
-Experiments exploring **machine unlearning** techniques on CIFAR-100 using a standard ResNet-18.
-
 Special focus on the **"similar labels"** strategy from:
 
 > **Robust Machine Unlearning for Quantized Neural Networks via Adaptive Gradient Reweighting with Similar Labels**  
