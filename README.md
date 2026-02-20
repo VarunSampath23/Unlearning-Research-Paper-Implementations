@@ -1,6 +1,6 @@
 # Unlearning-Research-Paper-Implementations
-A collection of reproducible implementations of state-of-the-art research papers in **machine unlearning**. This repository aims to provide  easy-to-run codebases for benchmarking, ablation studies, and further research in machine unlearning.
 ---
+A collection of reproducible implementations of state-of-the-art research papers in **machine unlearning**. This repository aims to provide  easy-to-run codebases for understanding the core elements, ablation studies, and further research in machine unlearning.
 
 ## Overview
 
